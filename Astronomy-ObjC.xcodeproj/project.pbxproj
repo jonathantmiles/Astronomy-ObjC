@@ -8,24 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		F86BEE81216EADCE00384F1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEE80216EADCE00384F1B /* AppDelegate.m */; };
-		F86BEE84216EADCE00384F1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEE83216EADCE00384F1B /* ViewController.m */; };
 		F86BEE87216EADCE00384F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86BEE85216EADCE00384F1B /* Main.storyboard */; };
 		F86BEE89216EADCF00384F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F86BEE88216EADCF00384F1B /* Assets.xcassets */; };
 		F86BEE8C216EADCF00384F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F86BEE8A216EADCF00384F1B /* LaunchScreen.storyboard */; };
 		F86BEE8F216EADCF00384F1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEE8E216EADCF00384F1B /* main.m */; };
+		F86BEE97216EB10B00384F1B /* JTMCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BEE96216EB10B00384F1B /* JTMCollectionViewController.swift */; };
+		F86BEE99216EB12400384F1B /* JTMDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BEE98216EB12400384F1B /* JTMDetailViewController.swift */; };
+		F86BEE9B216EB18E00384F1B /* MarsRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = F86BEE9A216EB18E00384F1B /* MarsRover.swift */; };
+		F86BEE9E216EB20000384F1B /* JTMCache.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEE9D216EB20000384F1B /* JTMCache.m */; };
+		F86BEEA1216EB20B00384F1B /* JTMMarsPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEA0216EB20B00384F1B /* JTMMarsPhoto.m */; };
+		F86BEEA4216EB21500384F1B /* JTMSolDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEA3216EB21500384F1B /* JTMSolDescription.m */; };
+		F86BEEA7216EB21E00384F1B /* JTMCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEA6216EB21E00384F1B /* JTMCamera.m */; };
+		F86BEEAA216EB23400384F1B /* JTMCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEA9216EB23400384F1B /* JTMCollectionViewCell.m */; };
+		F86BEEAD216EB25200384F1B /* JTMMarsRoverClient.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEAC216EB25200384F1B /* JTMMarsRoverClient.m */; };
+		F86BEEB0216EB28500384F1B /* JTMConcurrentOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEAF216EB28500384F1B /* JTMConcurrentOperation.m */; };
+		F86BEEB3216EB29100384F1B /* JTMFetchPhotoOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEB2216EB29100384F1B /* JTMFetchPhotoOperation.m */; };
+		F86BEEB6216EB2A000384F1B /* JTMFilterImageOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEB5216EB2A000384F1B /* JTMFilterImageOperation.m */; };
+		F86BEEBC216EB31B00384F1B /* NSURL+Secure.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEBB216EB31B00384F1B /* NSURL+Secure.m */; };
+		F86BEEBF216EB33400384F1B /* UIImage+Filtering.m in Sources */ = {isa = PBXBuildFile; fileRef = F86BEEBE216EB33400384F1B /* UIImage+Filtering.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F86BEE7C216EADCE00384F1B /* Astronomy-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Astronomy-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F86BEE7F216EADCE00384F1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F86BEE80216EADCE00384F1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F86BEE82216EADCE00384F1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F86BEE83216EADCE00384F1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F86BEE86216EADCE00384F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F86BEE88216EADCF00384F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F86BEE8B216EADCF00384F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F86BEE8D216EADCF00384F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F86BEE8E216EADCF00384F1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F86BEE95216EB10A00384F1B /* Astronomy-ObjC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Astronomy-ObjC-Bridging-Header.h"; sourceTree = "<group>"; };
+		F86BEE96216EB10B00384F1B /* JTMCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTMCollectionViewController.swift; sourceTree = "<group>"; };
+		F86BEE98216EB12400384F1B /* JTMDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JTMDetailViewController.swift; sourceTree = "<group>"; };
+		F86BEE9A216EB18E00384F1B /* MarsRover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRover.swift; sourceTree = "<group>"; };
+		F86BEE9C216EB20000384F1B /* JTMCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMCache.h; sourceTree = "<group>"; };
+		F86BEE9D216EB20000384F1B /* JTMCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMCache.m; sourceTree = "<group>"; };
+		F86BEE9F216EB20B00384F1B /* JTMMarsPhoto.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMMarsPhoto.h; sourceTree = "<group>"; };
+		F86BEEA0216EB20B00384F1B /* JTMMarsPhoto.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMMarsPhoto.m; sourceTree = "<group>"; };
+		F86BEEA2216EB21500384F1B /* JTMSolDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMSolDescription.h; sourceTree = "<group>"; };
+		F86BEEA3216EB21500384F1B /* JTMSolDescription.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMSolDescription.m; sourceTree = "<group>"; };
+		F86BEEA5216EB21E00384F1B /* JTMCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMCamera.h; sourceTree = "<group>"; };
+		F86BEEA6216EB21E00384F1B /* JTMCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMCamera.m; sourceTree = "<group>"; };
+		F86BEEA8216EB23400384F1B /* JTMCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMCollectionViewCell.h; sourceTree = "<group>"; };
+		F86BEEA9216EB23400384F1B /* JTMCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMCollectionViewCell.m; sourceTree = "<group>"; };
+		F86BEEAB216EB25200384F1B /* JTMMarsRoverClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMMarsRoverClient.h; sourceTree = "<group>"; };
+		F86BEEAC216EB25200384F1B /* JTMMarsRoverClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMMarsRoverClient.m; sourceTree = "<group>"; };
+		F86BEEAE216EB28500384F1B /* JTMConcurrentOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMConcurrentOperation.h; sourceTree = "<group>"; };
+		F86BEEAF216EB28500384F1B /* JTMConcurrentOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMConcurrentOperation.m; sourceTree = "<group>"; };
+		F86BEEB1216EB29100384F1B /* JTMFetchPhotoOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMFetchPhotoOperation.h; sourceTree = "<group>"; };
+		F86BEEB2216EB29100384F1B /* JTMFetchPhotoOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMFetchPhotoOperation.m; sourceTree = "<group>"; };
+		F86BEEB4216EB2A000384F1B /* JTMFilterImageOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTMFilterImageOperation.h; sourceTree = "<group>"; };
+		F86BEEB5216EB2A000384F1B /* JTMFilterImageOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTMFilterImageOperation.m; sourceTree = "<group>"; };
+		F86BEEBA216EB31B00384F1B /* NSURL+Secure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURL+Secure.h"; sourceTree = "<group>"; };
+		F86BEEBB216EB31B00384F1B /* NSURL+Secure.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURL+Secure.m"; sourceTree = "<group>"; };
+		F86BEEBD216EB33400384F1B /* UIImage+Filtering.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Filtering.h"; sourceTree = "<group>"; };
+		F86BEEBE216EB33400384F1B /* UIImage+Filtering.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Filtering.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +97,71 @@
 			children = (
 				F86BEE7F216EADCE00384F1B /* AppDelegate.h */,
 				F86BEE80216EADCE00384F1B /* AppDelegate.m */,
-				F86BEE82216EADCE00384F1B /* ViewController.h */,
-				F86BEE83216EADCE00384F1B /* ViewController.m */,
+				F86BEE95216EB10A00384F1B /* Astronomy-ObjC-Bridging-Header.h */,
 				F86BEE85216EADCE00384F1B /* Main.storyboard */,
 				F86BEE88216EADCF00384F1B /* Assets.xcassets */,
 				F86BEE8A216EADCF00384F1B /* LaunchScreen.storyboard */,
 				F86BEE8D216EADCF00384F1B /* Info.plist */,
 				F86BEE8E216EADCF00384F1B /* main.m */,
+				F86BEE96216EB10B00384F1B /* JTMCollectionViewController.swift */,
+				F86BEEA8216EB23400384F1B /* JTMCollectionViewCell.h */,
+				F86BEEA9216EB23400384F1B /* JTMCollectionViewCell.m */,
+				F86BEE98216EB12400384F1B /* JTMDetailViewController.swift */,
+				F86BEEC0216FFBA800384F1B /* Models */,
+				F86BEE9A216EB18E00384F1B /* MarsRover.swift */,
+				F86BEE9C216EB20000384F1B /* JTMCache.h */,
+				F86BEE9D216EB20000384F1B /* JTMCache.m */,
+				F86BEE9F216EB20B00384F1B /* JTMMarsPhoto.h */,
+				F86BEEA0216EB20B00384F1B /* JTMMarsPhoto.m */,
+				F86BEEA2216EB21500384F1B /* JTMSolDescription.h */,
+				F86BEEA3216EB21500384F1B /* JTMSolDescription.m */,
+				F86BEEA5216EB21E00384F1B /* JTMCamera.h */,
+				F86BEEA6216EB21E00384F1B /* JTMCamera.m */,
+				F86BEEC1216FFBB600384F1B /* Networking Controller */,
+				F86BEEAB216EB25200384F1B /* JTMMarsRoverClient.h */,
+				F86BEEAC216EB25200384F1B /* JTMMarsRoverClient.m */,
+				F86BEEC2216FFBD600384F1B /* Operations */,
+				F86BEEAE216EB28500384F1B /* JTMConcurrentOperation.h */,
+				F86BEEAF216EB28500384F1B /* JTMConcurrentOperation.m */,
+				F86BEEB1216EB29100384F1B /* JTMFetchPhotoOperation.h */,
+				F86BEEB2216EB29100384F1B /* JTMFetchPhotoOperation.m */,
+				F86BEEB4216EB2A000384F1B /* JTMFilterImageOperation.h */,
+				F86BEEB5216EB2A000384F1B /* JTMFilterImageOperation.m */,
+				F86BEEC3216FFBE000384F1B /* Extensions */,
+				F86BEEBA216EB31B00384F1B /* NSURL+Secure.h */,
+				F86BEEBB216EB31B00384F1B /* NSURL+Secure.m */,
+				F86BEEBD216EB33400384F1B /* UIImage+Filtering.h */,
+				F86BEEBE216EB33400384F1B /* UIImage+Filtering.m */,
 			);
 			path = "Astronomy-ObjC";
+			sourceTree = "<group>";
+		};
+		F86BEEC0216FFBA800384F1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F86BEEC1216FFBB600384F1B /* Networking Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Networking Controller";
+			sourceTree = "<group>";
+		};
+		F86BEEC2216FFBD600384F1B /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		F86BEEC3216FFBE000384F1B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,11 +190,13 @@
 		F86BEE74216EADCE00384F1B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JTM;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Jonathan T. Miles";
 				TargetAttributes = {
 					F86BEE7B216EADCE00384F1B = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -141,9 +236,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F86BEE84216EADCE00384F1B /* ViewController.m in Sources */,
+				F86BEE9E216EB20000384F1B /* JTMCache.m in Sources */,
+				F86BEEBC216EB31B00384F1B /* NSURL+Secure.m in Sources */,
+				F86BEE9B216EB18E00384F1B /* MarsRover.swift in Sources */,
+				F86BEEB0216EB28500384F1B /* JTMConcurrentOperation.m in Sources */,
 				F86BEE8F216EADCF00384F1B /* main.m in Sources */,
+				F86BEEAD216EB25200384F1B /* JTMMarsRoverClient.m in Sources */,
+				F86BEEB6216EB2A000384F1B /* JTMFilterImageOperation.m in Sources */,
+				F86BEEA7216EB21E00384F1B /* JTMCamera.m in Sources */,
+				F86BEEAA216EB23400384F1B /* JTMCollectionViewCell.m in Sources */,
+				F86BEEA4216EB21500384F1B /* JTMSolDescription.m in Sources */,
+				F86BEE97216EB10B00384F1B /* JTMCollectionViewController.swift in Sources */,
+				F86BEEB3216EB29100384F1B /* JTMFetchPhotoOperation.m in Sources */,
+				F86BEE99216EB12400384F1B /* JTMDetailViewController.swift in Sources */,
 				F86BEE81216EADCE00384F1B /* AppDelegate.m in Sources */,
+				F86BEEBF216EB33400384F1B /* UIImage+Filtering.m in Sources */,
+				F86BEEA1216EB20B00384F1B /* JTMMarsPhoto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +393,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J9VUCBX92;
 				INFOPLIST_FILE = "Astronomy-ObjC/Info.plist";
@@ -294,6 +403,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathantmiles.Astronomy-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astronomy-ObjC/Astronomy-ObjC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -302,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8J9VUCBX92;
 				INFOPLIST_FILE = "Astronomy-ObjC/Info.plist";
@@ -311,6 +424,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jonathantmiles.Astronomy-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Astronomy-ObjC/Astronomy-ObjC-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
